@@ -6,9 +6,25 @@ link saite(https://williamwosch.github.io/TDE-3-back-front/)
 ---
 
 ## 🌐 API Utilizada
-**JSONPlaceholder** → https://jsonplaceholder.typicode.com
+## 📡 Requisições HTTP Implementadas
 
-API gratuita para testes, que simula endpoints REST.
+| Método | Endpoint | Função no Código | O que Faz | Tipo de Ação | Funciona de Verdade? |
+|:--------:|:-----------|:----------------|:-----------|:----------------|:----------------------|
+| **GET** | `/users` | `fetchUsers()` | Busca a lista de usuários e exibe os 5 primeiros na tela | Leitura de dados | ✅ Sim, traz dados reais da API |
+| **POST** | `/users` | `addUser()` | Envia dados de um novo usuário e exibe mensagem de sucesso | Criação de dado | ⚙️ Simulado (não salva no servidor) |
+| **DELETE** | `/users/{id}` | `deleteUser(id)` | Envia requisição para excluir um usuário pelo ID | Exclusão de dado | ⚙️ Simulado (não apaga de verdade) |
+
+---
+
+### 🧠 Explicação
+
+A API **[JSONPlaceholder](https://jsonplaceholder.typicode.com)** é uma ferramenta pública usada para testar requisições HTTP.  
+Ela permite enviar requisições reais (GET, POST, DELETE etc.) e retorna respostas válidas,  
+mas **não altera os dados permanentemente** — é uma **simulação segura** para aprendizado.
+
+- O método **GET** realmente busca dados reais e exibe na página.  
+- Os métodos **POST** e **DELETE** são **funcionais**, no sentido de enviar e receber respostas HTTP corretamente,  
+  mas **não modificam o servidor** (a API é apenas de teste).  
 
 **Endpoints usados:**
 - `GET /users` → Lista usuários.
