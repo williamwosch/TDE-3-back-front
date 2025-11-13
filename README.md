@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 Aprender a consumir APIs públicas usando JavaScript (`fetch` / `async-await`), entendendo os métodos HTTP e manipulando respostas em JSON.
-
+link saite(https://williamwosch.github.io/TDE-3-back-front/)
 ---
 
 ## 🌐 API Utilizada
