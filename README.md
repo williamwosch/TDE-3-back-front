@@ -33,7 +33,7 @@ API gratuita para testes, que simula endpoints REST.
 
 ## 🚀 Como testar
 1. Abra `index.html` no navegador.
-2. Veja a lista de usuários carregada da API.
+2. Veja a lista de usuários carregada da API.-->(https://jsonplaceholder.typicode.com/users)
 3. Clique em **"Adicionar Usuário (POST)"** para enviar uma requisição POST.
 4. Clique em **"Excluir (DELETE)"** para testar a exclusão simulada.
 
